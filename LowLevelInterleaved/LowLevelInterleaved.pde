@@ -134,8 +134,8 @@ public void draw() {
   lights();
   strokeWeight(5);  
   // fill(128);  /*  Causes the boxes to be more dim than the default */
-  background(20);  /* has no effect */
-
+  background(20);  /* enough different from black that anything drawn with black can be descerned */
+  
   /* these boxes are rendered using the effects of the lights() */
   box(500.,  20.,  20.);
   box(  20.,500.,  20.);
