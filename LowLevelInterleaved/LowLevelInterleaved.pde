@@ -133,12 +133,8 @@ public void draw() {
    */
   lights();
   strokeWeight(5);  
-
-  /* some of the standard processing calls are compatible with use of custom shaders, 
-   * some do not work as expected
-   */
-  /* fill(1);   Causes all the boxes to be black */
-  background(.5);  /* has no effect */
+  // fill(128);  /*  Causes the boxes to be more dim than the default */
+  background(20);  /* has no effect */
 
   /* these boxes are rendered using the effects of the lights() */
   box(500.,  20.,  20.);
